@@ -12,18 +12,18 @@ $EM_CONF[$_EXTKEY] = array(
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'stable',
+	'state' => 'beta',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
 	'modify_tables' => '',
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
-	'version' => '1.1.2',
+	'version' => '1.1.3',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '7.6.0-7.6.99',
-			'gridelements' => '3.0.5-7.0.99',
+			'typo3' => '7.6.0-8.7.99',
+			'gridelements' => '3.0.5-8.7.99',
 		),
 		'conflicts' => array(
 		),
