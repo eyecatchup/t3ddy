@@ -1,6 +1,31 @@
 t3ddy for TYPO3 CMS
 ===================
 
+Notice
+------
+
+This fork adds support for TYPO3 8. 
+
+Until merged into the orginal repository, you can use this fork by adding the following to your composer.json.
+
+In the repositories section, add:
+
+.. code-block:: js
+
+    {
+      "type": "vcs",
+      "url": "https://github.com/eyecatchup/t3ddy"
+    }
+
+In the require section, add:
+
+.. code-block:: js
+
+     "arminvieweg/t3ddy": "1.1.3",   
+
+Begin of original README.rst
+----------------------------
+
 t3ddy provides comfortable tabs and accordion handling right in TYPO3 page module, using the techniques of gridelements.
 
 Demonstration of 1.0.0-dev: https://www.youtube.com/watch?v=m--P388YaLE
